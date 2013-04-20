@@ -4,7 +4,7 @@ import string, threading, socket, os
 
 usuarios = {'nick':[], 'source':[]}
 
-nopermitido = ('nick', 'nickname')
+nopermitido = ('nick', 'nickname',"no permited")
 
 class chatPrincipal(threading.Thread):
     
